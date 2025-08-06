@@ -1,0 +1,172 @@
+{
+  "university": "University of Swat",
+  "location": "Swat, Khyber Pakhtunkhwa, Pakistan",
+  "last_updated": "2025-08-07",
+  "rules": {
+    "academic_rules": {
+      "grading_system": {
+        "description": "Grades are awarded on a GPA scale from 0.0 to 4.0",
+        "minimum_passing_grade": "C (50%)",
+        "gpa_calculation": "Cumulative GPA is based on credit hours and grade points."
+      },
+      "course_registration": {
+        "add_drop_period": "First two weeks of semester",
+        "late_registration_penalty": "Rs. 1000 after deadline"
+      },
+      "credit_hour_limit": {
+        "minimum_per_semester": 12,
+        "maximum_per_semester": 21
+      },
+      "plagiarism_policy": {
+        "allowed_similarity": "Under 20%",
+        "penalties": {
+          "first_offense": "Warning and resubmission",
+          "second_offense": "Zero marks and report to department",
+          "third_offense": "Suspension or expulsion"
+        }
+      }
+    },
+    "attendance_policy": {
+      "minimum_attendance_percentage": 75,
+      "monitoring_method": "Daily attendance through LMS or manual register",
+      "penalty": "Barred from final exam if below 75% without valid excuse"
+    },
+    "discipline": {
+      "code_of_conduct": [
+        "Respect all staff, faculty, and fellow students",
+        "No cheating, bullying, or harassment",
+        "No political activities inside campus",
+        "No weapons or illegal substances allowed"
+      ],
+      "reporting_misconduct": "Report to Disciplinary Committee or Student Affairs",
+      "penalties": {
+        "verbal_warning": "For first minor violation",
+        "written_warning": "For repeated misconduct",
+        "suspension": "For major violations",
+        "expulsion": "For violence, threats, or repeated offense"
+      }
+    },
+    "departments": [
+      "Computer Science",
+      "Management Sciences",
+      "Education",
+      "Microbiology",
+      "Zoology",
+      "English Language & Literature",
+      "Law and Shari’a",
+      "Political Science",
+      "Islamic Studies",
+      "Environmental Sciences",
+      "Mathematics",
+      "Economics",
+      "Pakistan Studies"
+    ],
+    "examinations_and_results": {
+      "mid_term_weightage": "30%",
+      "final_term_weightage": "50%",
+      "sessional_assessment": "20% (quizzes, assignments, attendance)",
+      "result_publication": "Within 3 weeks of final exam",
+      "rechecking_policy": {
+        "application_deadline": "Within 7 days of result announcement",
+        "fee": "Rs. 500 per paper"
+      }
+    },
+    "transportation": {
+      "availability": "Limited to main routes in Swat region",
+      "eligibility": "First-come, first-serve basis with valid student ID",
+      "timings": {
+        "morning": "7:00 AM - 8:30 AM",
+        "evening": "2:00 PM - 5:00 PM"
+      },
+      "rules": [
+        "Bus pass must be carried at all times",
+        "No vandalism or misconduct in buses",
+        "Follow driver and staff instructions"
+      ]
+    },
+    "vacations": {
+      "summer_vacations": {
+        "duration": "July 1 - August 15",
+        "note": "Subject to academic calendar"
+      },
+      "winter_vacations": {
+        "duration": "December 20 - January 5",
+        "note": "May vary due to weather"
+      },
+      "public_holidays": [
+        "Pakistan Day - March 23",
+        "Eid-ul-Fitr - As per Islamic calendar",
+        "Eid-ul-Adha - As per Islamic calendar",
+        "Independence Day - August 14",
+        "Iqbal Day - November 9",
+        "Quaid-e-Azam Day - December 25"
+      ]
+    },
+    "sports_activities": {
+      "available_sports": [
+        "Cricket",
+        "Football",
+        "Volleyball",
+        "Badminton",
+        "Table Tennis",
+        "Athletics"
+      ],
+      "facilities": {
+        "sports_complex": "On-campus for selected sports",
+        "outdoor_fields": "Cricket and football grounds available"
+      },
+      "events": "Annual Sports Week, Inter-departmental competitions",
+      "registration": "Through sports office or student portal"
+    },
+    "solution_lab": {
+      "name": "Innovation & Solution Lab",
+      "purpose": "Encourage student entrepreneurship and problem-solving",
+      "available_resources": [
+        "Computers with internet",
+        "Project mentorship",
+        "Technical tools and software",
+        "Collaboration with faculty"
+      ],
+      "eligibility": "Open to all departments with valid project proposal",
+      "events": [
+        "Hackathons",
+        "Startup Pitch Competitions",
+        "Workshops & Seminars"
+      ]
+    },
+    "library": {
+      "operating_hours": "9:00 AM - 4:00 PM (Mon to Fri)",
+      "membership": "Free for all students with ID",
+      "borrow_limit": 3,
+      "borrow_duration": "14 days",
+      "late_fee_per_day": 10,
+      "digital_access": "JSTOR, HEC Digital Library, etc."
+    },
+    "hostel": {
+      "gender_segregated": true,
+      "timings": "Entry restricted after 10:00 PM",
+      "rules": [
+        "Visitors allowed only during visiting hours",
+        "Silence hours after 11 PM",
+        "Cleanliness and discipline mandatory"
+      ],
+      "warden_contact_required": "For overnight leave or emergencies"
+    }
+  },
+  "contact": {
+    "email": "info@uswat.edu.pk",
+    "website": "https://www.uswat.edu.pk",
+    "phone": "+92-946-613289"
+  },
+    "social_media": {
+        "facebook": "https://www.facebook.com/UniversityOfSwat",
+        "twitter": "https://twitter.com/UniversityOfSwat",
+        "instagram": "https://www.instagram.com/universityofswat"
+    },
+    "emergency_contacts": {
+        "police": "15",
+        "ambulance": "1122",
+        "fire_service": "16",
+        "university_security": "+92-946-613290"
+    }
+}
