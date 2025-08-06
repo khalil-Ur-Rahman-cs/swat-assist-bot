@@ -33,14 +33,14 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-subtle">
+    <div className="min-h-screen">
       <UniversityHeader />
       
       <div className="container mx-auto px-4 py-12 flex flex-col items-center justify-center min-h-[90vh]">
         <div className="w-full flex flex-col items-center justify-center">
           <div className="mb-8 text-center">
-            <h2 className="text-4xl font-bold text-foreground mb-3">How can I help you today?</h2>
-            <p className="text-muted-foreground text-xl">Ask me anything about University of Swat – from admissions to campus life.</p>
+            <h2 className="text-4xl font-bold text-foreground text-white mb-3">How can I help you today?</h2>
+            <p className="text-muted-foreground text-white text-xl">Ask me anything about University of Swat – from admissions to campus life.</p>
           </div>
           <div className="w-full mx-20">
             <ChatInterface />
@@ -54,7 +54,7 @@ const Index = () => {
           <div className="flex flex-col md:flex-row md:justify-center md:gap-12 items-center space-y-2 md:space-y-0">
             <div>
               <p className="font-medium text-white">Admissions Office</p>
-              <p className="text-white/80">📞 0946-123456</p>
+              <p className="text-white/80">📞 0946-730510</p>
               <p className="text-white/80">📧 admissions@uswat.edu.pk</p>
             </div>
             <div>
@@ -64,8 +64,7 @@ const Index = () => {
             </div>
           </div>
           <p className="text-white/80 mt-4">
-            © 2024 University of Swat. All rights reserved. | 
-            <span className="ml-2">Powered by AI Assistant Technology</span>
+            © 2024 University of Swat. All rights reserved.
           </p>
         </div>
       </footer>

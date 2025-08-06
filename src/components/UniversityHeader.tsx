@@ -20,7 +20,7 @@ const UniversityHeader: React.FC = () => {
             </div>
             <div>
               <h1 className="text-3xl font-extrabold tracking-tight text-[#f5f5f5] drop-shadow-md">UNIVERSITY OF SWAT</h1>
-              <p className="text-[#e0d7c6] text-lg font-medium">Excellence in Education Since 1990</p>
+              <p className="text-[#e0d7c6] text-lg font-medium">Excellence in Education Since 2009</p>
             </div>
           </div>
 
