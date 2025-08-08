@@ -10,6 +10,19 @@ interface Message {
   timestamp: Date;
 }
 
+function stripMarkdown(text) {
+  return text
+    .replace(/(\*\*|__)(.*?)\1/g, '$2')      // Bold
+    .replace(/(\*|_)(.*?)\1/g, '$2')          // Italic
+    .replace(/~~(.*?)~~/g, '$1')              // Strikethrough
+    .replace(/`{1,3}(.*?)`{1,3}/g, '$1')       // Inline code
+    .replace(/\[(.*?)\]\(.*?\)/g, '$1')       // Links
+    .replace(/#+\s?(.*)/g, '$1')              // Headings
+    .replace(/>\s?(.*)/g, '$1')               // Blockquotes
+    .replace(/!\[(.*?)\]\(.*?\)/g, '$1');     // Images
+}
+
+
 const ChatInterface: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
@@ -144,7 +157,7 @@ const ChatInterface: React.FC = () => {
             >
               <div className="whitespace-pre-wrap leading-relaxed text-lg">
 
-                {message.text}
+                {stripMarkdown(message.text)}
               </div>
               <div className={`text-xs mt-2 opacity-70 text-right`}>
                 {message.timestamp.toLocaleTimeString([], { 
