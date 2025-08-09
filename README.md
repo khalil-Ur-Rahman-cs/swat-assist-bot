@@ -1,73 +1,134 @@
-# Welcome to your Lovable project
+# University of Swat Assist Bot
 
-## Project info
+A professional AI-powered chatbot for the University of Swat, designed to answer questions about admissions, fees, scholarships, departments, university rules, events, and more. Built with React, Flask, and Groq's large language models, this project provides a modern, branded, and context-aware assistant for students and visitors.
 
-**URL**: https://lovable.dev/projects/158af1a0-925c-4142-89bc-9bbb5e329fa4
+---
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Conversational AI**: Natural language chat interface powered by Groq's GPT-OSS model.
+- **Context-Aware**: Answers are generated using official university data from a structured JSON context file.
+- **Modern UI**: Responsive, accessible, and university-branded interface using React and Tailwind CSS.
+- **Smart Context Selection**: Only relevant context is sent to the AI based on user queries (e.g., "fees" questions only send fee info).
+- **Streaming Responses**: Answers appear in real-time as they are generated.
+- **Clear Chat**: Easily reset the conversation.
+- **Contact Info**: Footer displays university contact and office hours.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/158af1a0-925c-4142-89bc-9bbb5e329fa4) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React, TypeScript, Tailwind CSS, Vite
+- **Backend**: Python, Flask, Groq API, dotenv
+- **AI Model**: Groq GPT-OSS (`openai/gpt-oss-120b`)
+- **Context**: JSON file (`backend/basic_context/basic_contect.json`)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- Node.js (v18+)
+- Python (v3.9+)
+- [Groq API Key](https://console.groq.com/)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 1. Clone the Repository
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+git clone https://github.com/your-username/swat-assist-bot.git
+cd swat-assist-bot
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 2. Backend Setup
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate  # On Windows
+pip install -r requirements.txt
+```
+
+- Create a `.env` file in the `backend` folder:
+  ```
+  GROQ_API_KEY=your_groq_api_key_here
+  ```
+- Edit `basic_context/basic_contect.json` with your university data.
+
+- Start the backend:
+  ```bash
+  python app.py
+  ```
+
+### 3. Frontend Setup
+
+```bash
+cd ..
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will be available at [http://localhost:8080](http://localhost:8080).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+swat-assist-bot/
+├── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── basic_context/
+│       └── basic_contect.json
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── public/
+├── .env
+├── vite.config.ts
+└── README.md
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## Customization
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Branding**: Replace `src/assets/university-logo.png` and background images with your university's branding.
+- **Context**: Update `backend/basic_context/basic_contect.json` with up-to-date university info.
+- **Logic**: Enhance context selection logic in `app.py` to send only relevant context to Groq based on keywords.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/158af1a0-925c-4142-89bc-9bbb5e329fa4) and click on Share -> Publish.
+## Example Usage
 
-## Can I connect a custom domain to my Lovable project?
+- **Ask about admissions:**  
+  _"How do I apply for undergraduate programs?"_
+- **Ask about fees:**  
+  _"What is the fee structure for BS Computer Science?"_
+- **Ask about scholarships:**  
+  _"Are there any merit-based scholarships?"_
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is for educational and demonstration purposes. Please contact the University of Swat for official information.
+
+---
+
+## Credits
+
+- University of Swat branding and data
+- [Groq](https://groq.com/) for LLM API
+- [React](https://react.dev/), [Flask](https://flask.palletsprojects.com/), [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## Contact
+
+For issues or contributions, please open an issue or pull
