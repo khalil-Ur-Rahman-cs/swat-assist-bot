@@ -1,0 +1,334 @@
+{
+  "university": "University of Swat",
+  "location": {
+    "main_campus": "Charbagh, Swat, Khyber Pakhtunkhwa, Pakistan",
+    "sub_campuses": [
+      "Shangla Campus",
+      "Buner Campus"
+    ]
+  },
+  "last_updated": "2025-08-07T13:30:53+05:00",
+  "vision": "To be a premier public university renowned for research, innovation, and academic excellence, contributing to the socio-economic development of the region and the country.",
+  "mission": "To provide quality education, foster critical thinking and research, and produce graduates equipped with the knowledge and skills to meet contemporary challenges.",
+  "governance": {
+    "chancellor": "Governor of Khyber Pakhtunkhwa",
+    "vice_chancellor": "Prof. Dr. Hassan Sher",
+    "registrar": "Mr. Amjad Ali",
+    "controller_of_examinations": "Dr. Fazal Rabi",
+    "treasurer": "Mr. Irfan Khan"
+  },
+  "rules": {
+    "academic_rules": {
+      "grading_system": {
+        "description": "Grades are awarded on a Semester Grade Point Average (SGPA) and Cumulative Grade Point Average (CGPA) scale from 0.00 to 4.00.",
+        "minimum_passing_grade_per_course": "C (50%)",
+        "minimum_cgpa_for_degree": {
+          "bachelors": 2.00,
+          "masters": 2.50,
+          "phd": 3.00
+        },
+        "grade_distribution": [
+          {"letter_grade": "A", "percentage": "85-100", "grade_points": 4.00},
+          {"letter_grade": "A-", "percentage": "80-84", "grade_points": 3.66},
+          {"letter_grade": "B+", "percentage": "75-79", "grade_points": 3.33},
+          {"letter_grade": "B", "percentage": "70-74", "grade_points": 3.00},
+          {"letter_grade": "B-", "percentage": "65-69", "grade_points": 2.66},
+          {"letter_grade": "C+", "percentage": "60-64", "grade_points": 2.33},
+          {"letter_grade": "C", "percentage": "50-59", "grade_points": 2.00},
+          {"letter_grade": "F", "percentage": "Below 50", "grade_points": 0.00},
+          {"letter_grade": "I", "description": "Incomplete", "grade_points": null},
+          {"letter_grade": "W", "description": "Withdrawal", "grade_points": null}
+        ],
+        "gpa_calculation": "CGPA = Σ(Credit Hours * Grade Points) / Σ(Credit Hours)"
+      },
+      "course_registration": {
+        "add_drop_period": "First two weeks of the semester",
+        "course_withdrawal_period": "Up to the 8th week of the semester with a 'W' grade",
+        "late_registration_penalty": "Rs. 1000 after the deadline",
+        "prerequisites": "Must be fulfilled before enrolling in advanced courses."
+      },
+      "credit_hour_limit": {
+        "minimum_per_semester": 12,
+        "maximum_per_semester": 21,
+        "probation_limit": "Students on academic probation may be restricted to 12 credit hours."
+      },
+      "academic_probation": {
+        "condition": "CGPA falls below 2.00 for Bachelors or 2.50 for Masters.",
+        "consequence": "Students are given two consecutive semesters to improve their CGPA. Failure to do so may result in expulsion."
+      },
+      "plagiarism_policy": {
+        "tool": "Turnitin plagiarism detection software is used.",
+        "allowed_similarity": "Under 20%",
+        "penalties": {
+          "first_offense": "Warning and resubmission with a grade penalty.",
+          "second_offense": "Zero marks in the assignment/thesis and a report to the department head.",
+          "third_offense": "Suspension for one semester or expulsion from the university, decided by the Disciplinary Committee."
+        }
+      }
+    },
+    "attendance_policy": {
+      "minimum_attendance_percentage": 75,
+      "monitoring_method": "Daily attendance is marked by the course instructor through the University's Learning Management System (LMS) or a manual register.",
+      "leave_policy": "Leave applications for valid reasons (medical, family emergency) must be submitted to the department head within 3 days.",
+      "penalty": "Students with attendance below 75% without a valid, approved excuse will be barred from sitting in the final examination for that course."
+    },
+    "discipline": {
+      "code_of_conduct": [
+        "Uphold the academic integrity and honor of the university.",
+        "Respect all staff, faculty, and fellow students.",
+        "Adherence to the university dress code is mandatory.",
+        "No cheating, bullying, harassment, or any form of discrimination.",
+        "No political or sectarian activities inside the campus.",
+        "Possession or use of weapons, illegal substances, or smoking on campus is strictly prohibited.",
+        "Proper use of university property and facilities is required."
+      ],
+      "reporting_misconduct": "Report incidents to the Head of Department, Student Affairs Office, or the Proctorial Board.",
+      "penalties": {
+        "verbal_warning": "For first minor violations.",
+        "written_warning": "For repeated minor misconduct or a single moderate violation.",
+        "fine": "Monetary penalty may be imposed based on the violation.",
+        "suspension": "For major violations like fighting, harassment, or cheating.",
+        "expulsion": "For severe violations such as violence, threats, or repeated major offenses."
+      }
+    },
+    "examinations_and_results": {
+      "assessment_breakdown": {
+        "mid_term_weightage": "30%",
+        "final_term_weightage": "50%",
+        "sessional_assessment": {
+          "total_weightage": "20%",
+          "breakdown": [
+            {"component": "Quizzes", "weightage": "10%"},
+            {"component": "Assignments/Projects", "weightage": "5%"},
+            {"component": "Class Participation/Attendance", "weightage": "5%"}
+          ]
+        }
+      },
+      "unfair_means_policy": {
+        "definition": "Includes cheating, plagiarism, impersonation, or any other form of academic dishonesty during exams.",
+        "penalty": "Immediate cancellation of the paper and a failing grade ('F') in the course. The case will be forwarded to the Disciplinary Committee for further action, which may include suspension."
+      },
+      "result_publication": "Official results are announced on the university website and student portal within 3 weeks of the final exam.",
+      "rechecking_policy": {
+        "description": "Re-checking involves verifying that all questions have been marked and the total is calculated correctly. It does not involve re-evaluation of the answers.",
+        "application_deadline": "Within 7 working days of the result announcement.",
+        "fee": "Rs. 500 per paper, payable to the university treasury."
+      }
+    },
+    "departments": [
+      {"name": "Computer Science", "programs": ["BSCS", "MSCS"], "hod": "Dr. Naseer Ahmed"},
+      {"name": "Management Sciences", "programs": ["BBA", "MBA"], "hod": "Dr. Shahid Iqbal"},
+      {"name": "Education", "programs": ["B.Ed", "M.Ed"], "hod": "Dr. Aisha Khan"},
+      {"name": "Microbiology", "programs": ["BS", "MS"], "hod": "Dr. Irum Gul"},
+      {"name": "Zoology", "programs": ["BS", "MS", "PhD"], "hod": "Dr. Farman Ali"},
+      {"name": "English Language & Literature", "programs": ["BS", "MA"], "hod": "Dr. Sami Ullah"},
+      {"name": "Law and Shari’a", "programs": ["LLB (5 Years)"], "hod": "Dr. Jamil Ahmed"},
+      {"name": "Political Science", "programs": ["BS", "MS"], "hod": "Dr. Fazal Hayat"},
+      {"name": "Islamic Studies", "programs": ["BS", "MA"], "hod": "Dr. Aziz Ullah"},
+      {"name": "Environmental Sciences", "programs": ["BS", "MS", "PhD"], "hod": "Dr. Zakir Hussain"},
+      {"name": "Mathematics", "programs": ["BS", "MS"], "hod": "Dr. Anwar Zeb"},
+      {"name": "Economics", "programs": ["BS", "MS"], "hod": "Dr. Kiramat Khan"},
+      {"name": "Pakistan Studies", "programs": ["BS", "MA"], "hod": "Dr. Liaqat Ali"},
+      {"name": "Biotechnology", "programs": ["BS", "MS"], "hod": "Dr. Waqar Ahmed"},
+      {"name": "Tourism & Hospitality", "programs": ["BS"], "hod": "Dr. Asad Ali"}
+    ]
+  },
+  "admissions": {
+    "admission_cycle": ["Fall (August/September)", "Spring (January/February)"],
+    "application_process": {
+      "step_1": "Visit the admissions portal on the university website: admissions.uswat.edu.pk.",
+      "step_2": "Create an account and fill out the online application form.",
+      "step_3": "Upload scanned copies of all required documents.",
+      "step_4": "Print the application processing fee challan and deposit it in the designated bank.",
+      "step_5": "Upload the paid fee challan to the portal to complete the application."
+    },
+    "general_eligibility": {
+      "bachelors": "Minimum 45% marks in FA/F.Sc or equivalent.",
+      "masters": "Minimum 2.50/4.00 CGPA or 45% marks in relevant Bachelors degree.",
+      "phd": "Minimum 3.00/4.00 CGPA in relevant Masters/MS degree and passing the university's admission test/interview."
+    },
+    "required_documents": [
+      "CNIC or B-Form",
+      "Domicile Certificate",
+      "SSC & HSSC Mark Sheets/Certificates",
+      "Bachelors/Masters Transcripts and Degrees (for MS/PhD)",
+      "Passport-sized photographs with blue background",
+      "Character Certificate from last attended institution"
+    ],
+    "merit_calculation": "Merit is calculated based on previous academic performance and any applicable entry test scores."
+  },
+  "fee_structure": {
+    "currency": "PKR",
+    "bachelors_per_semester": {
+      "admission_fee": 10000,
+      "tuition_fee": 35000,
+      "security_deposit_refundable": 5000,
+      "library_fee": 1000,
+      "examination_fee": 2000
+    },
+    "masters_per_semester": {
+      "admission_fee": 15000,
+      "tuition_fee": 45000,
+      "security_deposit_refundable": 7000,
+      "lab_fee_if_applicable": 5000,
+      "examination_fee": 2500
+    },
+    "payment": {
+      "deadline": "Within the first two weeks of the semester.",
+      "late_fee_fine": "Rs. 100 per day after the due date.",
+      "methods": ["Bank Deposit (designated banks)", "Online Transfer"]
+    }
+  },
+  "scholarships_and_financial_aid": {
+    "ehsaas_undergraduate_scholarship": {
+      "eligibility": "Low-income students enrolled in undergraduate programs.",
+      "provider": "Higher Education Commission (HEC), Pakistan",
+      "application": "Through HEC online portal."
+    },
+    "university_merit_scholarship": {
+      "eligibility": "Top three position holders in each department's semester exams.",
+      "benefit": "Partial to full tuition fee waiver for the next semester."
+    },
+    "khyber_pakhtunkhwa_educational_endowment_fund_peef": {
+      "eligibility": "Talented and needy students of KP with a domicile.",
+      "application": "Through the university's financial aid office."
+    },
+    "disability_scholarship": {
+      "eligibility": "Students with certified disabilities.",
+      "benefit": "Full tuition fee waiver."
+    }
+  },
+  "campus_facilities": {
+    "library": {
+      "name": "Central Library, University of Swat",
+      "operating_hours": "9:00 AM - 4:00 PM (Mon to Fri)",
+      "membership": "Free for all students and faculty with a valid university ID.",
+      "sections": ["General Collection", "Reference Section", "Periodicals", "Digital Library Lab"],
+      "borrowing_rules": {
+        "borrow_limit": "3 books for undergraduate, 5 for postgraduate",
+        "borrow_duration": "14 days",
+        "renewal": "Allowed once if the book is not reserved.",
+        "late_fee_per_day": 10,
+        "lost_book_penalty": "Replacement of the book or payment of three times its current market price."
+      },
+      "digital_access": ["JSTOR", "HEC Digital Library", "ProQuest", "Pak-LUMS"]
+    },
+    "hostel": {
+      "availability": "Limited seats available for male and female students.",
+      "gender_segregated": true,
+      "application": "Separate hostel application form to be submitted at the time of admission.",
+      "allotment": "On a first-come, first-serve basis, with preference given to students from distant areas.",
+      "timings": "Entry restricted after 10:00 PM for all residents.",
+      "facilities": ["Mess (with monthly payment)", "Common Room with TV", "Wi-Fi", "24/7 Security"],
+      "rules": [
+        "Visitors allowed only in designated areas during visiting hours (4 PM - 7 PM).",
+        "Strict silence hours from 11 PM to 6 AM.",
+        "Maintaining cleanliness and discipline is mandatory.",
+        "Overnight leave or emergencies require prior written permission from the Warden."
+      ]
+    },
+    "transportation": {
+      "availability": "Limited service on a first-come, first-serve basis.",
+      "routes": ["Mingora City Route", "Saidu Sharif Route", "Charbagh Town Route", "Kabal Route"],
+      "eligibility": "Enrolled students with a valid student ID and bus pass.",
+      "timings": {
+        "morning_pickup": "7:00 AM - 8:30 AM",
+        "evening_dropoff": "2:00 PM - 5:00 PM"
+      },
+      "rules": [
+        "The university bus pass must be carried and shown on demand.",
+        "No vandalism or misconduct will be tolerated.",
+        "Instructions from the driver and transport staff must be followed."
+      ]
+    },
+    "it_services": {
+      "wifi": "Campus-wide Wi-Fi available for students and faculty ('UoS-Student' SSID).",
+      "lms": "Learning Management System (lms.uswat.edu.pk) for course materials, assignments, and attendance.",
+      "email": "Official university email address provided to all students (e.g., student.id@uswat.edu.pk).",
+      "computer_labs": "Available in the IT department and library for academic use."
+    },
+    "health_services": {
+      "on_campus_clinic": "Basic first-aid and medical consultation available.",
+      "timings": "10:00 AM to 3:00 PM on weekdays.",
+      "emergency_procedure": "Ambulance service can be called via university security for transfer to a nearby hospital."
+    },
+    "cafeteria": {
+      "timings": "8:30 AM - 4:30 PM",
+      "offerings": ["Tea, Coffee, Cold Drinks", "Snacks (Samosas, Rolls)", "Lunch Items (Biryani, Karahi)", "Stationery Items"],
+      "hygiene_policy": "Regularly inspected by the university administration."
+    }
+  },
+  "student_life": {
+    "student_societies": [
+      {"name": "Debating Society", "objective": "To enhance public speaking and critical thinking skills."},
+      {"name": "Character Building Society", "objective": "To promote ethical and moral values."},
+      {"name": "Blood Donor Society", "objective": "To organize blood donation camps and maintain a donor database."},
+      {"name": "UoS Arts and Culture Society", "objective": "To promote artistic expression through drama, music, and visual arts."},
+      {"name": "UoS Sports Club", "objective": "To manage and organize all sports activities."}
+    ],
+    "sports_activities": {
+      "available_sports": ["Cricket", "Football", "Volleyball", "Badminton", "Table Tennis", "Athletics", "Tug of War"],
+      "facilities": {
+        "sports_complex": "On-campus facility for indoor games like Badminton and Table Tennis.",
+        "outdoor_fields": "Dedicated Cricket and Football grounds available."
+      },
+      "events": "Annual Sports Week, Inter-departmental tournaments, Participation in HEC sports competitions.",
+      "registration": "Through the sports office or student portal at the beginning of the academic year."
+    },
+    "innovation_and_solution_lab": {
+      "name": "Innovation & Solution Lab (ISL)",
+      "purpose": "To encourage student entrepreneurship, technological innovation, and societal problem-solving.",
+      "available_resources": ["High-speed internet and computers", "Project mentorship from faculty", "Access to technical tools and software", "Networking opportunities"],
+      "eligibility": "Open to all students and departments upon submission and approval of a valid project proposal.",
+      "events": ["Hackathons", "Startup Pitch Competitions", "Workshops on modern technologies", "Seminars by industry experts"]
+    },
+    "vacations_and_holidays": {
+      "summer_vacations": {
+        "duration": "July 1 - August 15",
+        "note": "Final dates are subject to the approved academic calendar."
+      },
+      "winter_vacations": {
+        "duration": "December 20 - January 5",
+        "note": "May be extended or modified due to severe weather conditions in Swat."
+      },
+      "public_holidays": [
+        "Kashmir Day - February 5",
+        "Pakistan Day - March 23",
+        "Labour Day - May 1",
+        "Eid-ul-Fitr - As per the Islamic calendar",
+        "Eid-ul-Adha - As per the Islamic calendar",
+        "Independence Day - August 14",
+        "Ashura (9th & 10th Muharram) - As per the Islamic calendar",
+        "Eid Milad-un-Nabi (12th Rabi-ul-Awal) - As per the Islamic calendar",
+        "Iqbal Day - November 9",
+        "Quaid-e-Azam Day / Christmas - December 25"
+      ]
+    }
+  },
+  "contact_information": {
+    "general_inquiries": {
+      "email": "info@uswat.edu.pk",
+      "phone": "+92-946-613289",
+      "website": "https://www.uswat.edu.pk"
+    },
+    "admissions_office": {
+      "email": "admissions@uswat.edu.pk",
+      "phone": "+92-946-613291"
+    },
+    "examinations_office": {
+      "email": "controller@uswat.edu.pk",
+      "phone": "+92-946-613292"
+    },
+    "social_media": {
+      "facebook": "https://www.facebook.com/UniversityOfSwat",
+      "twitter": "https://twitter.com/UniversityOfSwat",
+      "instagram": "https://www.instagram.com/universityofswat",
+      "youtube": "https://www.youtube.com/channel/UC... (example)"
+    },
+    "emergency_contacts": {
+      "university_security_office": "+92-946-613290",
+      "police": "15",
+      "rescue_ambulance": "1122",
+      "fire_service": "16"    }
+  }
+}

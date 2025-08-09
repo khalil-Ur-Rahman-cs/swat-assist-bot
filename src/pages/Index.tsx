@@ -33,85 +33,38 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-subtle">
+    <div className="min-h-screen">
       <UniversityHeader />
       
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid lg:grid-cols-3 gap-8">
-          {/* Main Chat Interface */}
-          <div className="lg:col-span-2">
-            <div className="mb-6">
-              <h2 className="text-3xl font-bold text-foreground mb-2">
-                How can I help you today?
-              </h2>
-              <p className="text-muted-foreground text-lg">
-                Ask me anything about University of Swat - from admissions to campus life.
-              </p>
-            </div>
-            <ChatInterface />
+      <div className="container mx-auto px-4 py-12 flex flex-col items-center justify-center min-h-[90vh]">
+        <div className="w-full flex flex-col items-center justify-center">
+          <div className="mb-8 text-center">
+            <h2 className="text-4xl font-bold text-foreground text-white mb-3">How can I help you today?</h2>
+            <p className="text-muted-foreground text-white text-xl">Ask me anything about University of Swat – from admissions to campus life.</p>
           </div>
-
-          {/* Sidebar Information */}
-          <div className="space-y-6">
-            {/* Features */}
-            <Card className="p-6 shadow-soft">
-              <h3 className="text-xl font-semibold mb-4 text-foreground">Why Use Our Chatbot?</h3>
-              <div className="space-y-4">
-                {features.map((feature, index) => (
-                  <div key={index} className="flex items-start gap-3">
-                    <div className="bg-gradient-university p-2 rounded-lg text-white flex-shrink-0">
-                      {feature.icon}
-                    </div>
-                    <div>
-                      <h4 className="font-medium text-foreground">{feature.title}</h4>
-                      <p className="text-sm text-muted-foreground">{feature.description}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </Card>
-
-            {/* Topics */}
-            <Card className="p-6 shadow-soft">
-              <h3 className="text-xl font-semibold mb-4 text-foreground">I can help with:</h3>
-              <div className="space-y-3">
-                {supportedTopics.map((topic, index) => (
-                  <div key={index} className="flex items-center gap-3">
-                    <div className={`p-2 rounded-lg ${topic.color}`}>
-                      {topic.icon}
-                    </div>
-                    <span className="font-medium text-foreground">{topic.name}</span>
-                  </div>
-                ))}
-              </div>
-            </Card>
-
-            {/* Contact Information */}
-            <Card className="p-6 shadow-soft">
-              <h3 className="text-xl font-semibold mb-4 text-foreground">Need More Help?</h3>
-              <div className="space-y-3 text-sm">
-                <div>
-                  <p className="font-medium text-foreground">Admissions Office</p>
-                  <p className="text-muted-foreground">📞 0946-123456</p>
-                  <p className="text-muted-foreground">📧 admissions@uswat.edu.pk</p>
-                </div>
-                <div>
-                  <p className="font-medium text-foreground">Office Hours</p>
-                  <p className="text-muted-foreground">Monday - Friday: 8:00 AM - 4:00 PM</p>
-                  <p className="text-muted-foreground">Saturday: 8:00 AM - 12:00 PM</p>
-                </div>
-              </div>
-            </Card>
+          <div className="w-full mx-20">
+            <ChatInterface />
           </div>
         </div>
       </div>
 
-      {/* Footer */}
-      <footer className="bg-university-blue text-white py-8 mt-12">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-white/80">
-            © 2024 University of Swat. All rights reserved. | 
-            <span className="ml-2">Powered by AI Assistant Technology</span>
+      {/* Footer with contact information */}
+      <footer className="bg-[#23382d] bg-gradient-to-r from-[#23382d] via-[#6b2323] to-[#23382d] text-white py-8 mt-12 border-t-4 border-[#6b2323]">
+        <div className="container mx-auto px-4 text-center space-y-4">
+          <div className="flex flex-col md:flex-row md:justify-center md:gap-12 items-center space-y-2 md:space-y-0">
+            <div>
+              <p className="font-medium text-white">Admissions Office</p>
+              <p className="text-white/80">📞 0946-730510</p>
+              <p className="text-white/80">📧 admissions@uswat.edu.pk</p>
+            </div>
+            <div>
+              <p className="font-medium text-white">Office Hours</p>
+              <p className="text-white/80">Monday - Friday: 8:00 AM - 4:00 PM</p>
+              <p className="text-white/80">Saturday: 8:00 AM - 12:00 PM</p>
+            </div>
+          </div>
+          <p className="text-white/80 mt-4">
+            © 2024 University of Swat. All rights reserved.
           </p>
         </div>
       </footer>
